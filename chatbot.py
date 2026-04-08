@@ -143,7 +143,7 @@ channel_memory: dict[int, deque] = defaultdict(lambda: deque(maxlen=MESSAGE_MEMO
 
 
 def is_owner_or_trusted(user_id: int) -> bool:
-    return user_id == bot.owner_id or user_id == 773514543468642314
+    return user_id == bot.owner_id
 
 def is_admin(interaction: discord.Interaction) -> bool:
     return (
