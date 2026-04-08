@@ -1,0 +1,8 @@
+discord.py>=2.3.2
+ollama
+aiohttp
+python-dotenv
+pytz
+pyyaml
+beautifulsoup4
+lxml

@@ -1,0 +1,6 @@
+allowed_url_domains:
+ - example.com
+blacklisted_roles: null
+blacklisted_words: null
+restrict_servers: false
+allowed_server_users: null

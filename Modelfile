@@ -1,0 +1,11 @@
+# What model to base it on
+FROM llama3
+
+# How closely the AI should follow the system prompt
+PARAMETER temperature 1.2
+
+# The system prompt, instructions for the AI
+# It will also follow the instructions from the model creator e.g. Meta for the llama models
+SYSTEM """
+You are a helpful assistant in a Discord server.
+"""
